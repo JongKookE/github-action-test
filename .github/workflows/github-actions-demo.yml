@@ -26,9 +26,10 @@ jobs:
       - name: executing remote ssh commands
         uses: appleboy/ssh-action@v0.1.9
         with:
-          host: 13.55.129.116
+          host: ${{secrets.REMOTE_IP}}
           username: ${{secrets.USERNAME}}
           key: ${{secrets.SECRET_KEY}}
           port: ${{secrets.REMOTE_PORT}}
           script: |
             echo "SUCCESS!!"
+            vim my_txt.txt
