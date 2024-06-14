@@ -16,3 +16,17 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+
+  deploy: 
+    name: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: executing remote ssh commands
+        uses: appleboy/ssh-action@v0.1.9
+        with:
+          host: ${{REMOTE_IP.REMOTE_IP}}
+          username: ${{REMOTE_IP.USERNAME}}
+          key: ${{REMOTE_IP.SECRET_KEY}}
+          port: ${{REMOTE_IP.REMOTE_PORT}}
+          script: |
+            echo "SUCCESS!!"
