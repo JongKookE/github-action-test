@@ -33,7 +33,6 @@ jobs:
           script: |
             cd github-action-test
             echo "SUCCESS!!"
-            echo "Hello World" > text.txt
             git pull
             
 
