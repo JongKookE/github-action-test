@@ -32,4 +32,5 @@ jobs:
           port: ${{secrets.REMOTE_PORT}}
           script: |
             echo "SUCCESS!!"
-            vim my_txt.txt
+            echo "Hello, World!" > text.txt
+
