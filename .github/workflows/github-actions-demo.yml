@@ -1,6 +1,7 @@
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push, pull_request]
+
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
@@ -16,3 +17,22 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+
+  deploy: 
+    name: deploy
+    runs-on: ubuntu-latest
+    environment: REMOTE_IP
+    steps:
+      - name: executing remote ssh commands
+        uses: appleboy/ssh-action@v0.1.9
+        with:
+          host: ${{secrets.REMOTE_IP}}
+          username: ${{secrets.USERNAME}}
+          key: ${{secrets.SECRET_KEY}}
+          port: ${{secrets.REMOTE_PORT}}
+          script: |
+            cd github-action-test
+            echo "SUCCESS!!"
+            git pull
+            
+
