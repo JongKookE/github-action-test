@@ -20,6 +20,12 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
+
+    // Jsoup dependency
+    implementation 'org.jsoup:jsoup:1.14.3'
+    // JGit dependency
+    implementation 'org.eclipse.jgit:org.eclipse.jgit:6.5.0.202303070854-r'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
