@@ -35,9 +35,9 @@ jobs:
         run: |
           chmod +x ./gradlew
           ./gradlew build
-          ls -la
-        
 
+      - name: Run Application
+        run: java -jar build/libs/TechBlogApplication.jar
           
             
 
