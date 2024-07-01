@@ -58,13 +58,9 @@ jobs:
         run: |
           git add README.md
           git commit -m "Update README By Github Actions!"
-          git push
 
       - name: GitHub Push
         # You may pin to the exact commit or the version.
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-
-
-
