@@ -33,3 +33,15 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+// plain.jar 파일 생성을 막음
+tasks.jar{
+    enabled = false
+}
+
+// 실행 가능한 JAR 파일의 이름을 고정
+tasks.bootJar {
+    archiveBaseName.set('tech_blog')
+    archiveVersion.set('0.0.1-SNAPSHOT')
+    archiveClassifier.set('jongkookE')
+}

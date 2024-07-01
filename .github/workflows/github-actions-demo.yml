@@ -37,7 +37,7 @@ jobs:
           ./gradlew build
 
       - name: Run Application
-        run: java -jar build/libs/TechBlogApplication.jar
+        run: java -jar build/libs/tech_blog-0.0.1-SNAPSHOT-jongkookE.jar
           
             
 
