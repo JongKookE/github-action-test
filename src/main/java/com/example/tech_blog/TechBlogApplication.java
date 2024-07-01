@@ -1,17 +1,12 @@
 package com.example.tech_blog;
 
-import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.errors.GitAPIException;
-import org.eclipse.jgit.lib.Repository;
-import org.eclipse.jgit.storage.file.FileRepositoryBuilder;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
@@ -39,29 +34,7 @@ public class TechBlogApplication {
             String title = element.text();
             sb.append(title).append(" ").append(link);
         }
-
-        String myRepoURL = "https://github.com/JongKookE/github-action-test";
-        Repository repository = new FileRepositoryBuilder()
-                .setGitDir(new File(myRepoURL + "/git"))
-                .build();
-
-        Git git = new Git(repository);
-
-        sb.append("## 푸쉬 테스트");
-
-        File readmeFile = new File(myRepoURL + "/README.md");
-        FileWriter writer = new FileWriter(readmeFile, true); // append 모드로 열기
-        writer.write(sb.toString());
-        writer.close();
-
-        git.commit()
-                // 변경사항 모두 commit
-                .setAll(true)
-                // commit message
-                .setMessage("리드미 업데이트!")
-                .call();
-
-
+        System.out.println(sb);
     }
 
 }
