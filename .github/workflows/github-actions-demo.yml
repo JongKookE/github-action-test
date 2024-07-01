@@ -10,7 +10,8 @@ on:
             # │ │ │ ┌───────────── month (1 - 12 or JAN-DEC)
             # │ │ │ │ ┌───────────── day of the week (0 - 6 or SUN-SAT)
             # │ │ │ │ │
-    - cron:  "5 * * * *"
+    - cron:  "0/5 * * * *"
+      # 0분부터 시작해서 5분마다 울려라
 
 
 jobs:
@@ -60,7 +61,6 @@ jobs:
           git commit -m "Update README By Github Actions!"
 
       - name: GitHub Push
-        # You may pin to the exact commit or the version.
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: git push
