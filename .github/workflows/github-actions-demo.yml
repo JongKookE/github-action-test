@@ -18,10 +18,9 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: To check if web crawling is functioning correctly
-        run: | 
-          java -version
-          mvn -version
-      - run: echo "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️"
+        run:
+          cd src/main/java/com/example/tech_blog 
+          run TechBlogApplication.java
 
           
             
