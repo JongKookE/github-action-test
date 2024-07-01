@@ -31,7 +31,11 @@ jobs:
           java-version: '17'
           distribution: 'zulu'
 
-      - run: ls -la
+      - name: Build with Gradle
+        run: |
+          ./gradlew build
+          ls -la
+        
 
           
             
