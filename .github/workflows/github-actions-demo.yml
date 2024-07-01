@@ -21,6 +21,8 @@ jobs:
         run: |
           cd src/main/java/com/example/tech_blog 
           pwd
+          ls
+          java -jar TechBlogApplication.jar
 
           
             
