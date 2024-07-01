@@ -1,6 +1,17 @@
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
+  schedule:
+            # ┌───────────── minute (0 - 59)
+            # │ ┌───────────── hour (0 - 23)
+            # │ │ ┌───────────── day of the month (1 - 31)
+            # │ │ │ ┌───────────── month (1 - 12 or JAN-DEC)
+            # │ │ │ │ ┌───────────── day of the week (0 - 6 or SUN-SAT)
+            # │ │ │ │ │
+    - cron:  "5 * * * *"
+
 
 jobs:
   Explore-GitHub-Actions:
@@ -19,7 +30,6 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
   Build:
-    name: build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
@@ -36,8 +46,16 @@ jobs:
           chmod +x ./gradlew
           ./gradlew build
 
+  Update-Readme:
+    runs-on: ubuntu-latest
+    steps:
       - name: Run Application
         run: java -jar build/libs/tech_blog-0.0.1-SNAPSHOT-jongkookE.jar
-          
-            
+
+      - name: Commit & Push Changes
+        run: |
+          git add README.md
+          git commit -m "Update README By Github Actions!"
+          git push
+
 
