@@ -20,7 +20,7 @@ jobs:
       - name: To check if web crawling is functioning correctly
         run: |
           cd src/main/java/com/example/tech_blog 
-          run TechBlogApplication.java
+          pwd
 
           
             
