@@ -21,29 +21,8 @@ jobs:
         run: | 
           java -version
           mvn -version
-          
+      - run: echo "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️"
 
-  deploy: 
-    name: deploy
-    runs-on: ubuntu-latest
-    environment: REMOTE_IP
-    steps:
-      - name: executing remote ssh commands
-        uses: appleboy/ssh-action@v0.1.9
-        with:
-          host: ${{secrets.REMOTE_IP}}
-          username: ${{secrets.USERNAME}}
-          key: ${{secrets.SECRET_KEY}}
-          port: ${{secrets.REMOTE_PORT}}
-          script: |
-            cd github-action-test
-            echo "SUCCESS!!"
-            git pull
-      - name: Set up JDK 17
-        uses: actions/setup-java@v4.2.1
-        with:
-          java-version: '17'
-          distribution: 'zulu'
           
             
 
