@@ -51,7 +51,9 @@ jobs:
     needs: Build
     steps:
       - name: Run Application
-        run: java -jar build/libs/tech_blog-0.0.1-SNAPSHOT-jongkookE.jar
+        run: |
+            ls -la build/libs
+#          java -jar build/libs/tech_blog-0.0.1-SNAPSHOT-jongkookE.jar
 
       - name: Commit & Push Changes
         run: |
