@@ -49,6 +49,11 @@ jobs:
       - name: Run Application
         run: java -jar build/libs/tech_blog-0.0.1-SNAPSHOT-jongkookE.jar
 
+      - name: Tell me Who I AM
+        run: |
+          git config --global user.email "whdrnrdl789@naver.com"
+          git config --global user.name "jongkookE"
+
       - name: Commit & Push Changes
         run: |
           git add README.md
