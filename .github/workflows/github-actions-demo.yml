@@ -17,6 +17,11 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+      - name: To check if web crawling is functioning correctly
+        run: | 
+          java -version
+          mvn -version
+          
 
   deploy: 
     name: deploy
