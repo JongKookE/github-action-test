@@ -22,9 +22,9 @@ dependencies {
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
 
     // Jsoup dependency
-    implementation 'org.jsoup:jsoup:1.14.3'
+    implementation 'org.jsoup:jsoup:1.15.3'
     // JGit dependency
-    implementation 'org.eclipse.jgit:org.eclipse.jgit:6.5.0.202303070854-r'
+    implementation 'org.eclipse.jgit:org.eclipse.jgit:6.7.0.202309050840-r'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
