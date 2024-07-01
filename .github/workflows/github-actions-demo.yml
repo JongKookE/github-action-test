@@ -55,13 +55,8 @@ jobs:
           git config --global user.email "whdrnrdl789@naver.com"
           git config --global user.name "jongkookE"
 
-      - name: Commit
+      - name: Commit And Push
         run: |
           git add README.md
           git commit -m "Update README By Github Actions!"
-
-      - name: Push changes to main branch # merge 내용들을 main 브랜치로 최종 push
-        uses: ad-m/github-push-action@master
-        with:
-          branch: main
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          git push origin main
