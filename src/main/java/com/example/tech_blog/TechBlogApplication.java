@@ -1,6 +1,5 @@
 package com.example.tech_blog;
 
-import org.eclipse.jgit.api.errors.GitAPIException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -14,7 +13,7 @@ import java.util.List;
 public class TechBlogApplication {
     static StringBuilder sb = new StringBuilder();
 
-    public static void main(String[] args) throws IOException, GitAPIException {
+    public static void main(String[] args) throws IOException {
 
         SpringApplication.run(TechBlogApplication.class, args);
 
@@ -26,13 +25,13 @@ public class TechBlogApplication {
         for (Element element: last){
             String link = "https://prgms.tistory.com" + element.attr("href");
             String title = element.text();
-            sb.append(title).append(" ").append(link);
+            sb.append(title).append(" ").append(link).append("\n");
         }
 
         for (Element element: elements) {
             String link = "https://prgms.tistory.com" + element.attr("href");
             String title = element.text();
-            sb.append(title).append(" ").append(link);
+            sb.append(title).append(" ").append(link).append("\n");
         }
         System.out.println(sb);
     }
