@@ -17,7 +17,7 @@ public class TechBlogApplication {
 
         SpringApplication.run(TechBlogApplication.class, args);
         sb.append("# tech-blog-commit-bot\n").append("유명 기업의 기술 블로그의 글을 매일 매일 갱신해주는 봇 \uD83E\uDD16\n");
-        LocalDateTime date = LocalDateTime.now().plusHours(8);
+        LocalDateTime date = LocalDateTime.now().plusHours(9);
 
         sb.append("## ⏲\uFE0F ").append(date.getYear()).append("년 ").append(date.getMonthValue()).append("월 ").append(date.getDayOfMonth()); //.append("일의 업데이트 내용입니다.").append("\n");
         sb.append("일 ").append(date.getHour()).append("시 ").append(date.getMinute()).append("분의 업데이트 내용입니다.\n");
