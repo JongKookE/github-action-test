@@ -1,7 +1,6 @@
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
-  push:
   schedule:
             # ┌───────────── minute (0 - 59)
             # │ ┌───────────── hour (0 - 23)
@@ -9,29 +8,13 @@ on:
             # │ │ │ ┌───────────── month (1 - 12 or JAN-DEC)
             # │ │ │ │ ┌───────────── day of the week (0 - 6 or SUN-SAT)
             # │ │ │ │ │
-    - cron:  "5 * * * *"
+    - cron:  "5 8 * * *"
       # 매일 아침 8시에 업데이트
       # 깃허브 액션의 시간이 한국보다 8시간이 느리기 때문에
       # 원하는 시간대보다 8시간 늦춰야 함
 
 
 jobs:
-  Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
-      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
-      - name: Check out repository code
-        uses: actions/checkout@v4
-      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
-      - run: date
-      - name: List files in the repository
-        run: |
-          ls ${{ github.workspace }}
-      - run: echo "🍏 This job's status is ${{ job.status }}."
-
   Update-Readme:
     runs-on: ubuntu-latest
     steps:
