@@ -9,7 +9,7 @@ on:
             # │ │ │ ┌───────────── month (1 - 12 or JAN-DEC)
             # │ │ │ │ ┌───────────── day of the week (0 - 6 or SUN-SAT)
             # │ │ │ │ │
-    - cron:  "0/5 * * * *"
+    - cron:  "5 * * * *"
       # 매일 아침 8시에 업데이트
       # 깃허브 액션의 시간이 한국보다 8시간이 느리기 때문에
       # 원하는 시간대보다 8시간 늦춰야 함
@@ -54,8 +54,8 @@ jobs:
 
       - name: Tell me Who I AM
         run: |
-          git config --global user.email "whdrnrdl789@naver.com"
-          git config --global user.name "jongkookE"
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
       - name: Commit And Push
         run: |
