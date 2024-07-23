@@ -18,5 +18,6 @@ public class TechBlogApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         updateService.updateReadme();
+//        updateService.woowahan();
     }
 }
