@@ -11,13 +11,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TechBlogApplication implements CommandLineRunner {
     final UpdateService updateService;
     public static void main(String[] args) {
-
         SpringApplication.run(TechBlogApplication.class, args);
     }
 
     @Override
     public void run(String... args) throws Exception {
         updateService.updateReadme();
-//        updateService.woowahan();
     }
 }
