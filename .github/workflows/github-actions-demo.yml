@@ -16,6 +16,9 @@ on:
 
 
 jobs:
+  Print-me:
+
+
   Update-Readme:
     runs-on: ubuntu-latest
     steps:
@@ -27,11 +30,18 @@ jobs:
         with:
           java-version: '17'
           distribution: 'zulu'
+      - name: Print Server IP
+        run: |
+          echo "Fetching public IP address..."
+          curl -s https://ifconfig.me
+          echo "Fetching public IP address using http..."
+          curl -s https://httpbin.org/ip
 
       - name: Build with Gradle
         run: |
           chmod +x ./gradlew
           ./gradlew build --scan
+          
 
       - name: Run Application
         run: java -jar build/libs/tech_blog-0.0.1-SNAPSHOT-jongkookE.jar
