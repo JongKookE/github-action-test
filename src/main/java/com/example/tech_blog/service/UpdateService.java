@@ -22,7 +22,7 @@ public class UpdateService {
         sb.append("일 ").append(date.getHour()).append("시 ").append(date.getMinute()).append("분의 업데이트 내용입니다.\n");
 
         programmers();
-        woowahan();
+//        woowahan();
         File readme = new File("README.md");
         // 파일이 없다면 새로 만들고, 파일이 있다면 덮어씌운다.
         FileWriter writer = new FileWriter(readme, false);
