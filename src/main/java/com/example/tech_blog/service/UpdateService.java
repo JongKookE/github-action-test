@@ -22,7 +22,7 @@ public class UpdateService {
         sb.append("일 ").append(date.getHour()).append("시 ").append(date.getMinute()).append("분의 업데이트 내용입니다.\n");
 
         programmers();
-//        woowahan();
+        woowahan();
         File readme = new File("README.md");
         // 파일이 없다면 새로 만들고, 파일이 있다면 덮어씌운다.
         FileWriter writer = new FileWriter(readme, false);
@@ -61,16 +61,16 @@ public class UpdateService {
 
         String woowahanUrl = "https://techblog.woowahan.com/";
         Document doc = Jsoup.connect(woowahanUrl).get();
-        List<Element> titles = doc.select("div.post-list div.post-item a");
-        int indexSize = 10;
-        // indexSize를 조정안하고 for-each를 사용하면 알수없는 태그들도 같이 넘어와서 포스트의 사이즈로 순회
-        for(int index = 0; index < indexSize; index++){
-            Element element = titles.get(index);
-            String title = element.select("h2.post-title").text();
-            String link = element.select("a").attr("href");
-            System.out.println(titleToLink(title, link));
-            sb.append(titleToLink(title, link));
-        }
+//        List<Element> titles = doc.select("div.post-list div.post-item a");
+//        int indexSize = 10;
+//        // indexSize를 조정안하고 for-each를 사용하면 알수없는 태그들도 같이 넘어와서 포스트의 사이즈로 순회
+//        for(int index = 0; index < indexSize; index++){
+//            Element element = titles.get(index);
+//            String title = element.select("h2.post-title").text();
+//            String link = element.select("a").attr("href");
+//            System.out.println(titleToLink(title, link));
+//            sb.append(titleToLink(title, link));
+//        }
     }
 
     private void setH2(String title){
