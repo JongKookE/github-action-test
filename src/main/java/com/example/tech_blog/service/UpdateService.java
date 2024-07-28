@@ -59,7 +59,7 @@ public class UpdateService {
     public void woowahan() throws IOException {
         setH2("\uD83C\uDF84 우아한 기술 블로그");
 
-        String woowahanUrl = "https://techblog.woowahan.com/?paged=1";
+        String woowahanUrl = "https://techblog.woowahan.com/";
         Document doc = Jsoup.connect(woowahanUrl).get();
         List<Element> titles = doc.select("div.post-list div.post-item a");
         int indexSize = 10;
