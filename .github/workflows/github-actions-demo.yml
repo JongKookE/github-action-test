@@ -28,17 +28,6 @@ jobs:
           java-version: '17'
           distribution: 'zulu'
 
-      - name: Download and build ProxyJelly
-        run: |
-            git clone https://github.com/proxyjelly/proxyjelly.git
-            cd proxyjelly
-            ./gradlew build
-
-      - name: Start ProxyJelly
-        run: |
-          cd proxyjelly
-          nohup java -jar build/libs/proxyjelly-1.0-SNAPSHOT.jar &
-
       - name: Build with Gradle
         run: |
           chmod +x ./gradlew

@@ -8,9 +8,6 @@ import org.springframework.stereotype.Service;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.net.Proxy;
-import java.net.Proxy.Type;
-import java.net.InetSocketAddress;
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -25,7 +22,7 @@ public class UpdateService {
         sb.append("일 ").append(date.getHour()).append("시 ").append(date.getMinute()).append("분의 업데이트 내용입니다.\n");
 
         programmers();
-        woowahan();
+//        woowahan();
         File readme = new File("README.md");
         // 파일이 없다면 새로 만들고, 파일이 있다면 덮어씌운다.
         FileWriter writer = new FileWriter(readme, false);
@@ -63,8 +60,7 @@ public class UpdateService {
         setH2("\uD83C\uDF84 우아한 기술 블로그");
 
         String woowahanUrl = "https://techblog.woowahan.com";
-        Proxy proxy = new Proxy(Type.HTTP, new InetSocketAddress("127.0.0.1", 3128)); // 프록시 객체 생성
-        Document doc = Jsoup.connect(woowahanUrl).proxy(proxy).get();
+        Document doc = Jsoup.connect(woowahanUrl).get();
         List<Element> titles = doc.select("div.post-list div.post-item a");
         int indexSize = 10;
         // indexSize를 조정안하고 for-each를 사용하면 알수없는 태그들도 같이 넘어와서 포스트의 사이즈로 순회
