@@ -1,6 +1,7 @@
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
+  push:
   schedule:
             # ┌───────────── minute (0 - 59)
             # │ ┌───────────── hour (0 - 23)
@@ -30,7 +31,7 @@ jobs:
       - name: Build with Gradle
         run: |
           chmod +x ./gradlew
-          ./gradlew build
+          ./gradlew build --scan
 
       - name: Run Application
         run: java -jar build/libs/tech_blog-0.0.1-SNAPSHOT-jongkookE.jar
