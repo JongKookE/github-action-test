@@ -59,18 +59,20 @@ public class UpdateService {
     public void woowahan() throws IOException {
         setH2("\uD83C\uDF84 우아한 기술 블로그");
 
-        String woowahanUrl = "https://techblog.woowahan.com/";
-        Document doc = Jsoup.connect(woowahanUrl).get();
-//        List<Element> titles = doc.select("div.post-list div.post-item a");
-//        int indexSize = 10;
-//        // indexSize를 조정안하고 for-each를 사용하면 알수없는 태그들도 같이 넘어와서 포스트의 사이즈로 순회
-//        for(int index = 0; index < indexSize; index++){
-//            Element element = titles.get(index);
-//            String title = element.select("h2.post-title").text();
-//            String link = element.select("a").attr("href");
-//            System.out.println(titleToLink(title, link));
-//            sb.append(titleToLink(title, link));
-//        }
+        String woowahanUrl = "https://techblog.woowahan.com";
+        Document doc = Jsoup.connect(woowahanUrl)
+                .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36")
+                .get();
+        List<Element> titles = doc.select("div.post-list div.post-item a");
+        int indexSize = 10;
+        // indexSize를 조정안하고 for-each를 사용하면 알수없는 태그들도 같이 넘어와서 포스트의 사이즈로 순회
+        for(int index = 0; index < indexSize; index++){
+            Element element = titles.get(index);
+            String title = element.select("h2.post-title").text();
+            String link = element.select("a").attr("href");
+            System.out.println(titleToLink(title, link));
+            sb.append(titleToLink(title, link));
+        }
     }
 
     private void setH2(String title){
