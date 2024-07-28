@@ -64,7 +64,7 @@ public class UpdateService {
 
         String woowahanUrl = "https://techblog.woowahan.com";
         Proxy proxy = new Proxy(Type.HTTP, new InetSocketAddress("127.0.0.1", 3128)); // 프록시 객체 생성
-        Document doc = Jsoup.connect(woowahanUrl).get();
+        Document doc = Jsoup.connect(woowahanUrl).proxy(proxy).get();
         List<Element> titles = doc.select("div.post-list div.post-item a");
         int indexSize = 10;
         // indexSize를 조정안하고 for-each를 사용하면 알수없는 태그들도 같이 넘어와서 포스트의 사이즈로 순회
