@@ -27,18 +27,22 @@ jobs:
         with:
           java-version: '17'
           distribution: 'zulu'
-      - name: Print Server IP
+
+      - name: Download and build ProxyJelly
         run: |
-          echo "Fetching public IP address..."
-          curl -s https://ifconfig.me
-          echo "Fetching public IP address using http..."
-          curl -s https://httpbin.org/ip
+            git clone https://github.com/proxyjelly/proxyjelly.git
+            cd proxyjelly
+            ./gradlew build
+
+      - name: Start ProxyJelly
+        run: |
+          cd proxyjelly
+          nohup java -jar build/libs/proxyjelly-1.0-SNAPSHOT.jar &
 
       - name: Build with Gradle
         run: |
           chmod +x ./gradlew
           ./gradlew build --scan
-          
 
       - name: Run Application
         run: java -jar build/libs/tech_blog-0.0.1-SNAPSHOT-jongkookE.jar

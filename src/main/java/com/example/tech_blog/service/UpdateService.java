@@ -8,6 +8,9 @@ import org.springframework.stereotype.Service;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.Proxy;
+import java.net.Proxy.Type;
+import java.net.InetSocketAddress;
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -60,6 +63,7 @@ public class UpdateService {
         setH2("\uD83C\uDF84 우아한 기술 블로그");
 
         String woowahanUrl = "https://techblog.woowahan.com";
+        Proxy proxy = new Proxy(Type.HTTP, new InetSocketAddress("127.0.0.1", 3128)); // 프록시 객체 생성
         Document doc = Jsoup.connect(woowahanUrl).get();
         List<Element> titles = doc.select("div.post-list div.post-item a");
         int indexSize = 10;
