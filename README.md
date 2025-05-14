@@ -1,10 +1,10 @@
 # tech-blog-commit-bot
 유명 기업의 기술 블로그의 글을 매일 매일 갱신해주는 봇 🤖
-## ⏲ 2025년 5월 13일 10시 58분의 업데이트 내용입니다.
+## ⏲ 2025년 5월 14일 10시 56분의 업데이트 내용입니다.
 ## 🎃 프로그래머스
 
 ---
-- [왕초보를 위한 Git 명령어 모음집 (2)](https://prgms.tistory.com/221)
+- [Git, GitHub 명령어 사용 꿀팁](https://prgms.tistory.com/217)
 
 - [개발자에게 인기 있는 개발툴 TOP5](https://prgms.tistory.com/180)
 
