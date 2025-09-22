@@ -5,6 +5,8 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
@@ -14,7 +16,11 @@ public class Main {
     public static void main(String[] args) throws IOException {
         readmeFormatter.actionStart(sb);
         programmers();
-        System.out.println(sb.toString());
+        File readme = new File("README.md");
+        // 파일이 없다면 새로 만들고, 파일이 있다면 덮어씌운다.
+        FileWriter writer = new FileWriter(readme, false);
+        writer.write(sb.toString());
+        writer.close();
 
     }
     public static void programmers() throws IOException {
