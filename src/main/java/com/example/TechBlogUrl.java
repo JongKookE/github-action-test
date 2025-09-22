@@ -5,7 +5,7 @@ public enum TechBlogUrl {
     PROGRAMMERS("https://prgms.tistory.com/");
 
     private final String url;
-    private TechBlogUrl(String url) {
+    TechBlogUrl(String url) {
         this.url = url;
     }
 

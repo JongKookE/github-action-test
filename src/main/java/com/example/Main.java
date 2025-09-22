@@ -18,6 +18,7 @@ public class Main {
 
     }
     public static void programmers() throws IOException {
+        readmeFormatter.setH2(sb, TechBlogName.PROGRAMMERS.getName());
         Document doc = Jsoup.connect(TechBlogUrl.PROGRAMMERS.getUrl()).get();
         List<Element> last = doc.select("#main > div > div.index_type_common.index_type_post.index_type_post_line4 > div.article_content > a.link_title");
         List<Element> elements = doc.select("#main > div > div.index_type_common.index_type_gallery > ul > li > div > a.link_title");
