@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'application'
+    id 'io.freefair.aspectj.post-compile-weaving' version '8.4'
 }
 
 group = 'com.example'
@@ -13,8 +14,8 @@ repositories {
 dependencies {
     // Jsoup dependency
     implementation 'org.jsoup:jsoup:1.15.3'
-    // JGit dependency
-    implementation 'org.eclipse.jgit:org.eclipse.jgit:6.7.0.202309050840-r'
+    implementation 'org.aspectj:aspectjrt:1.9.22'
+    implementation 'org.aspectj:aspectjweaver:1.9.22'
 }
 
 test {

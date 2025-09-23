@@ -2,7 +2,8 @@ package com.example;
 
 public enum TechBlogName {
     WOOAHAN("우아한 형제들"),
-    PROGRAMMERS("프로그래머스");
+    PROGRAMMERS("프로그래머스"),
+    TOSS("토스");
 
     private final String name;
 

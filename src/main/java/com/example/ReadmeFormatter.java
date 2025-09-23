@@ -30,6 +30,5 @@ public class ReadmeFormatter {
             .append(title)
             .append("\n\n")
             .append("---\n");
-
     }
 }

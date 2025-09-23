@@ -17,6 +17,7 @@ public class Main {
         readmeFormatter.actionStart(sb);
         programmers();
         wooahan();
+        toss();
         File readme = new File("README.md");
         // 파일이 없다면 새로 만들고, 파일이 있다면 덮어씌운다.
         FileWriter writer = new FileWriter(readme, false);
@@ -53,6 +54,17 @@ public class Main {
         for(int index = 0; index < indexSize; index++){
             Element element = titles.get(index);
             String title = element.select("h2.post-title").text();
+            String link = element.select("a").attr("href");
+            readmeFormatter.titleToLink(sb, title, link);
+        }
+    }
+
+    static void toss() throws IOException{
+        readmeFormatter.setH2(sb, TechBlogName.TOSS.getName());
+        Document doc = Jsoup.connect(TechBlogUrl.TOSS.getUrl()).get();
+        List<Element> elements = doc.select("div.css-132j2b5.e143n5sn1 li");
+        for(Element element : elements) {
+            String title = element.select("span.typography").text();
             String link = element.select("a").attr("href");
             readmeFormatter.titleToLink(sb, title, link);
         }
