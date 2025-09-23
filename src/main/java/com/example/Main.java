@@ -16,7 +16,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         readmeFormatter.actionStart(sb);
         programmers();
-        wooahan();
+//        wooahan();
         toss();
         File readme = new File("README.md");
         // 파일이 없다면 새로 만들고, 파일이 있다면 덮어씌운다.
