@@ -22,6 +22,7 @@ public class Main {
         writer.write(sb.toString());
         writer.close();
 
+        sb.setLength(0);
     }
     public static void programmers() throws IOException {
         readmeFormatter.setH2(sb, TechBlogName.PROGRAMMERS.getName());
