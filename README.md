@@ -1,6 +1,6 @@
 # tech-blog-commit-bot
 기술 블로그의 글을 매일 매일 갱신해주는 봇 🤖
-## ⏲ 2025년 9월 24일 10시 56분의 업데이트 내용입니다.
+## ⏲ 2025년 9월 25일 10시 58분의 업데이트 내용입니다.
 <details>
 <summary>프로그래머스</summary>
 
@@ -15,7 +15,7 @@
 
 - ['2022 Dev-Matching: 웹 프론트엔드 개발자(상반기)' 과제 테스트 해설](https://prgms.tistory.com//139)
 
-- [개발자를 위해 준비했어요! 머쓱이의 '머쓱한 ZOOM 배경화면'](https://prgms.tistory.com//100)
+- ["올리브영으로의 이직 준비는 이렇게 했어요." - 프로그래머스를 통해 올리브영에 합류한 석현님 이야기](https://prgms.tistory.com//146)
 
 </details>
 <details>
