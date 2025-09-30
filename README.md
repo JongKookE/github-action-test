@@ -1,6 +1,6 @@
 # tech-blog-commit-bot
 기술 블로그의 글을 매일 매일 갱신해주는 봇 🤖
-## ⏲ 2025년 9월 29일 11시 0분의 업데이트 내용입니다.
+## ⏲ 2025년 9월 30일 10시 55분의 업데이트 내용입니다.
 <details>
 <summary>프로그래머스</summary>
 
@@ -24,6 +24,8 @@
 ## 🎃토스
 
 ---
+- [멈춰있던 PG의 시간, 토스페이먼츠가 다시 흐르게 합니다 토스페이먼츠 엔지니어들이 지난 몇 년 간 쏟아부은 치열한 고민과 노력을 기록한 시리즈를 소개합니다. 2025년 9월 30일 · 하태호](toss.tech/article/payments-legacy-intro)
+
 - [토스증권의 수 천개 실시간 데이터 파이프라인 운영방법 #2: MSA 환경 Observability 높이기 Kafka Broker request log를 활용해서 서비스 간 의존성 파악하기 2025년 9월 19일](toss.tech/article/MSA-observability)
 
 - [토스증권 Iceberg 적용기 #1: CDC 환경은 왜 제대로 동작하지 않을까? CDC를 Iceberg에 어떻게 안전하게 적재할 수 있는지에 초점을 맞춰, 우리가 마주했던 문제와 원칙들을 공유합니다. 2025년 9월 10일 · 김용우](toss.tech/article/iceberg-cdc-1)
@@ -61,7 +63,5 @@
 - [GPU를 밀도 있게 쓰는 방법 - 토스증권의 GPU 가상화(MIG) 도입기 자원 낭비 없이 H100을 제대로 활용하기 위한 MIG 도입부터 운영까지의 기록을 공유합니다. 2025년 7월 10일 · 김진웅](toss.tech/article/toss-securities-gpu-mig)
 
 - [토스가 특허 낸 리서치툴, TNS (Toss Navigation Score) 제작기 사용자가 원하는 기능을 잘 찾는지, 정성적인 경험을 수치로 측정하는 툴 TNS. 전례없는 제품을 어떻게 제작했는지, TNS 길드원들의 이야기를 들려드릴게요. 2025년 7월 4일 · 토스 TNS 길드](toss.tech/article/Toss_Navigation_Score)
-
-- [대팝업의 시대에서 살아남는 브랜드 경험 만들기 토스 10주년 기념 공간 ‘스퀘어 오브 토스’ 비하인드를 소개할게요. 2025년 6월 27일 · 이지영/심석용](toss.tech/article/10to100-behind)
 
 </details>
