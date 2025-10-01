@@ -65,7 +65,7 @@ public class Main {
         List<Element> elements = doc.select("div.css-132j2b5.e143n5sn1 li");
         for(Element element : elements) {
             String title = element.select("span.typography").text();
-            String link = "toss.tech" + element.select("a").attr("href");
+            String link = "https://toss.tech" + element.select("a").attr("href");
             readmeFormatter.titleToLink(sb, title, link);
         }
     }
