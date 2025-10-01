@@ -1,6 +1,6 @@
 # tech-blog-commit-bot
 기술 블로그의 글을 매일 매일 갱신해주는 봇 🤖
-## ⏲ 2025년 10월 1일 9시 43분의 업데이트 내용입니다.
+## ⏲ 2025년 10월 1일 11시 8분의 업데이트 내용입니다.
 <details>
 <summary>프로그래머스</summary>
 
@@ -24,6 +24,8 @@
 ## 🎃토스
 
 ---
+- [진짜 A/B 테스트: 토스의 푸시 생태계를 데이터로 재설계한 방법 토스가 데이터를 바탕으로 의사결정을 내리는 과정 속에서, 데이터 분석가가 어떻게 토스의 푸시 생태계를 재설계 했는지 알려드려요. 2025년 10월 1일 · 고은솔](https://toss.tech/article/data-analyst-ab-test)
+
 - [멈춰있던 PG의 시간, 토스페이먼츠가 다시 흐르게 합니다 토스페이먼츠 엔지니어들이 지난 몇 년 간 쏟아부은 치열한 고민과 노력을 기록한 시리즈를 소개합니다. 2025년 9월 30일 · 하태호](https://toss.tech/article/payments-legacy-intro)
 
 - [토스증권의 수 천개 실시간 데이터 파이프라인 운영방법 #2: MSA 환경 Observability 높이기 Kafka Broker request log를 활용해서 서비스 간 의존성 파악하기 2025년 9월 19일](https://toss.tech/article/MSA-observability)
@@ -61,7 +63,5 @@
 - [슬기로운 토스뱅크 개발 인턴 생활 토스뱅크에서 3개월 동안 개발 인턴으로 근무하며 기획·개발·발표까지 진행해본 경험을 공유할게요. 2025년 7월 14일 · 이경민/문홍윤](https://toss.tech/article/toss-bank-interns)
 
 - [GPU를 밀도 있게 쓰는 방법 - 토스증권의 GPU 가상화(MIG) 도입기 자원 낭비 없이 H100을 제대로 활용하기 위한 MIG 도입부터 운영까지의 기록을 공유합니다. 2025년 7월 10일 · 김진웅](https://toss.tech/article/toss-securities-gpu-mig)
-
-- [토스가 특허 낸 리서치툴, TNS (Toss Navigation Score) 제작기 사용자가 원하는 기능을 잘 찾는지, 정성적인 경험을 수치로 측정하는 툴 TNS. 전례없는 제품을 어떻게 제작했는지, TNS 길드원들의 이야기를 들려드릴게요. 2025년 7월 4일 · 토스 TNS 길드](https://toss.tech/article/Toss_Navigation_Score)
 
 </details>
