@@ -1,6 +1,6 @@
 # tech-blog-commit-bot
 기술 블로그의 글을 매일 매일 갱신해주는 봇 🤖
-## ⏲ 2025년 10월 25일 10시 58분의 업데이트 내용입니다.
+## ⏲ 2025년 10월 26일 11시 7분의 업데이트 내용입니다.
 <details>
 <summary>프로그래머스</summary>
 
@@ -11,11 +11,11 @@
 
 - ["저의 강점인 코딩테스트에 집중해 티빙에 합격했어요"-프로그래머스 2021 Dev-Matching을 통해 티빙의 백엔드 개발자로 합류한 석희님 이야기](https://prgms.tistory.com//176)
 
-- [Hello World! 프로그래머스의 브랜드 키트를 소개합니다.](https://prgms.tistory.com//27)
-
-- [개발자 머쓱이가 준비한 7가지 선물 : 새로워진 프로그래머스 브랜드키트를 소개합니다.](https://prgms.tistory.com//65)
-
 - [비전공자에서 넥슨코리아의 웹 개발자가 되기까지 - 프로그래머스를 통해 넥슨코리아에 합류한 창엽님 이야기](https://prgms.tistory.com//179)
+
+- [프로그래머스를 통해 센드버드에 합류하게 된 길원님 이야기](https://prgms.tistory.com//123)
+
+- ['2022 Dev-Matching: 웹 프론트엔드 개발자(상반기)' 과제 테스트 해설](https://prgms.tistory.com//139)
 
 </details>
 <details>
