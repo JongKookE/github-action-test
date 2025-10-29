@@ -1,6 +1,6 @@
 # tech-blog-commit-bot
 기술 블로그의 글을 매일 매일 갱신해주는 봇 🤖
-## ⏲ 2025년 10월 28일 11시 1분의 업데이트 내용입니다.
+## ⏲ 2025년 10월 29일 11시 8분의 업데이트 내용입니다.
 <details>
 <summary>프로그래머스</summary>
 
@@ -13,9 +13,9 @@
 
 - [프로그래머스를 통해 센드버드에 합류하게 된 길원님 이야기](https://prgms.tistory.com//123)
 
-- [비전공자에서 넥슨코리아의 웹 개발자가 되기까지 - 프로그래머스를 통해 넥슨코리아에 합류한 창엽님 이야기](https://prgms.tistory.com//179)
-
 - ['2022 Dev-Matching: 웹 프론트엔드 개발자(상반기)' 과제 테스트 해설](https://prgms.tistory.com//139)
+
+- [비전공자에서 넥슨코리아의 웹 개발자가 되기까지 - 프로그래머스를 통해 넥슨코리아에 합류한 창엽님 이야기](https://prgms.tistory.com//179)
 
 </details>
 <details>
@@ -24,7 +24,9 @@
 ## 🎃토스
 
 ---
-- [API 연동 자동화를 위한 여정: 토스는 왜 사내 MCP 서버를 개발하였는가? with Spring-AI  2025년 10월 27일 · 조민규](https://toss.tech/article/internal-mcp-server)
+- [포스를 확장하는 가장 빠른 방법, 포스 플러그인 토스플레이스 Plugin Silo에서 다양한 서비스에 쉽게 녹아드는 유연한 구조를 고민하며, 사용자와 외부 개발자 모두에게 가치 있는 경험을 만든 경험을 공유합니다. 2025년 10월 29일 · 고태완/윤보미](https://toss.tech/article/toss-pos-plugin)
+
+- [API 연동 자동화를 위한 여정: 토스는 왜 사내 MCP 서버를 개발하였는가? with Spring-AI 개발자들에게 익숙해진 불편함을 해결하기 위한 사내의 Swagger MCP 서버를 구축한 이야기를 들려드립니다. 2025년 10월 27일 · 조민규](https://toss.tech/article/internal-mcp-server)
 
 - [가맹점은 변함없이, 결제창 시스템 전면 재작성하기 20년간 유지되어 온 PG의 레거시 결제창 시스템을, 변화에 유연하게 진화할 수 있는 새로운 결제 시스템으로 재탄생시킨 여정을 공유합니다. 2025년 10월 22일 · 황성우](https://toss.tech/article/payments-legacy-2)
 
@@ -61,7 +63,5 @@
 - [토스증권의 수천 개 실시간 데이터 파이프라인 운영방법 #1: Visualize Lineage 토스증권의 실시간 데이터 파이프라인을 대규모로 구성하고 운영해 온 경험을 소개합니다. 2025년 8월 11일 · 강병수](https://toss.tech/article/toss-securities-visualize-lineage)
 
 - [“토스 참 쪼잔하다”는 유저 말에 1억을 태운 이유 | 언더커버 사일로 비하인드 2화: 만보기 사일로 어떻게 실패한 실험은 최고의 교과서가 되었나 2025년 7월 21일 · 박세진/김태성](https://toss.tech/article/undercover-silo-3)
-
-- [시각 정보를 소리로 번역하는 법 - 시각장애인을 위한 얼굴 인증 개선기 | 접근성 업무일지 #2 프로그레스 바 같은 시각적인 정보를 어떻게 소리로 잘 전달할 수 있을까요? 시각장애인을 위한 사용 경험을 설계할 때 고려해야할 지점을 알려드릴게요. 2025년 7월 18일 · 유니버셜디자인팀](https://toss.tech/article/accessibility_face)
 
 </details>
