@@ -1,6 +1,6 @@
 # tech-blog-commit-bot
 기술 블로그의 글을 매일 매일 갱신해주는 봇 🤖
-## ⏲ 2025년 10월 30일 11시 7분의 업데이트 내용입니다.
+## ⏲ 2025년 10월 31일 11시 4분의 업데이트 내용입니다.
 <details>
 <summary>프로그래머스</summary>
 
@@ -24,6 +24,8 @@
 ## 🎃토스
 
 ---
+- [토스 피플 : 데이터를 ‘이해하는’ 구조를 설계합니다 데이터의 의미를 구조화하고 연결하는 설계 여정을 걸어온, 토스의 1호 Data Architect 고정현님의 커리어 이야기를 들려드려요. 2025년 10월 31일 · 고정현](https://toss.tech/article/tosspeople-jhko)
+
 - [포스를 확장하는 가장 빠른 방법, 포스 플러그인 토스플레이스 Plugin Silo에서 다양한 서비스에 쉽게 녹아드는 유연한 구조를 고민하며, 사용자와 외부 개발자 모두에게 가치 있는 경험을 만든 경험을 공유합니다. 2025년 10월 29일 · 고태완/윤보미](https://toss.tech/article/toss-pos-plugin)
 
 - [API 연동 자동화를 위한 여정: 토스는 왜 사내 MCP 서버를 개발하였는가? with Spring-AI 개발자들에게 익숙해진 불편함을 해결하기 위한 사내의 Swagger MCP 서버를 구축한 이야기를 들려드립니다. 2025년 10월 27일 · 조민규](https://toss.tech/article/internal-mcp-server)
@@ -61,7 +63,5 @@
 - [토스의 접근성 문서 A11y Fundamentals 을 소개합니다 (오픈 기념 이벤트 ~9/10) '접근성은 어려운 것' 이라고 느끼는 분들을 위해 실무에서 바로 적용할 수 있는 접근성의 핵심 개념과 실수하기 쉬운 패턴을 알려주는 문서, A11y Fundamentals 을 소개합니다. 2025년 8월 13일 · 강민우](https://toss.tech/article/A11y_Fundamentals)
 
 - [토스증권의 수천 개 실시간 데이터 파이프라인 운영방법 #1: Visualize Lineage 토스증권의 실시간 데이터 파이프라인을 대규모로 구성하고 운영해 온 경험을 소개합니다. 2025년 8월 11일 · 강병수](https://toss.tech/article/toss-securities-visualize-lineage)
-
-- [“토스 참 쪼잔하다”는 유저 말에 1억을 태운 이유 | 언더커버 사일로 비하인드 2화: 만보기 사일로 어떻게 실패한 실험은 최고의 교과서가 되었나 2025년 7월 21일 · 박세진/김태성](https://toss.tech/article/undercover-silo-3)
 
 </details>
