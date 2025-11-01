@@ -1,6 +1,6 @@
 # tech-blog-commit-bot
 기술 블로그의 글을 매일 매일 갱신해주는 봇 🤖
-## ⏲ 2025년 10월 31일 11시 4분의 업데이트 내용입니다.
+## ⏲ 2025년 11월 1일 11시 7분의 업데이트 내용입니다.
 <details>
 <summary>프로그래머스</summary>
 
@@ -15,7 +15,7 @@
 
 - ['2022 Dev-Matching: 웹 프론트엔드 개발자(상반기)' 과제 테스트 해설](https://prgms.tistory.com//139)
 
-- [개발자를 위해 준비했어요! 머쓱이의 '머쓱한 ZOOM 배경화면'](https://prgms.tistory.com//100)
+- [[월간 코드 챌린지 시즌3] 10월 문제 해설](https://prgms.tistory.com//108)
 
 </details>
 <details>
