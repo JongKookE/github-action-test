@@ -1,6 +1,6 @@
 # tech-blog-commit-bot
 기술 블로그의 글을 매일 매일 갱신해주는 봇 🤖
-## ⏲ 2025년 11월 3일 11시 9분의 업데이트 내용입니다.
+## ⏲ 2025년 11월 4일 11시 4분의 업데이트 내용입니다.
 <details>
 <summary>프로그래머스</summary>
 
@@ -15,7 +15,7 @@
 
 - [[월간 코드 챌린지 시즌3] 10월 문제 해설](https://prgms.tistory.com//108)
 
-- ['2022 Dev-Matching: 웹 프론트엔드 개발자(상반기)' 과제 테스트 해설](https://prgms.tistory.com//139)
+- [개발자의 일상을 돕는 굿즈, 프로그래머스 키트 3.0 Release Note](https://prgms.tistory.com//164)
 
 </details>
 <details>
