@@ -1,6 +1,6 @@
 # tech-blog-commit-bot
 기술 블로그의 글을 매일 매일 갱신해주는 봇 🤖
-## ⏲ 2025년 11월 4일 11시 4분의 업데이트 내용입니다.
+## ⏲ 2025년 11월 5일 11시 6분의 업데이트 내용입니다.
 <details>
 <summary>프로그래머스</summary>
 
@@ -24,6 +24,8 @@
 ## 🎃토스
 
 ---
+- [토스플레이스 사일로 QA로 일한다는 것 우리가 풀어내는 문제들에 대하여 2025년 11월 4일 · 채소연](https://toss.tech/article/tossplace-qa-manager)
+
 - [토스 피플 : 데이터를 ‘이해하는’ 구조를 설계합니다 데이터의 의미를 구조화하고 연결하는 설계 여정을 걸어온, 토스의 1호 Data Architect 고정현님의 커리어 이야기를 들려드려요. 2025년 10월 31일 · 고정현](https://toss.tech/article/tosspeople-jhko)
 
 - [포스를 확장하는 가장 빠른 방법, 포스 플러그인 토스플레이스 Plugin Silo에서 다양한 서비스에 쉽게 녹아드는 유연한 구조를 고민하며, 사용자와 외부 개발자 모두에게 가치 있는 경험을 만든 경험을 공유합니다. 2025년 10월 29일 · 고태완/윤보미](https://toss.tech/article/toss-pos-plugin)
@@ -61,7 +63,5 @@
 - [귀로 듣는 챗봇의 탄생 | 접근성 업무일지 #3 스크린리더 사용자에게도 챗봇 흐름이 자연스럽게 느껴지게 하기 위해 고민한 4가지 포인트를 알려드려요. 2025년 8월 13일 · 손연지](https://toss.tech/article/38743)
 
 - [토스의 접근성 문서 A11y Fundamentals 을 소개합니다 (오픈 기념 이벤트 ~9/10) '접근성은 어려운 것' 이라고 느끼는 분들을 위해 실무에서 바로 적용할 수 있는 접근성의 핵심 개념과 실수하기 쉬운 패턴을 알려주는 문서, A11y Fundamentals 을 소개합니다. 2025년 8월 13일 · 강민우](https://toss.tech/article/A11y_Fundamentals)
-
-- [토스증권의 수천 개 실시간 데이터 파이프라인 운영방법 #1: Visualize Lineage 토스증권의 실시간 데이터 파이프라인을 대규모로 구성하고 운영해 온 경험을 소개합니다. 2025년 8월 11일 · 강병수](https://toss.tech/article/toss-securities-visualize-lineage)
 
 </details>
