@@ -1,6 +1,6 @@
 # tech-blog-commit-bot
 기술 블로그의 글을 매일 매일 갱신해주는 봇 🤖
-## ⏲ 2025년 11월 6일 11시 6분의 업데이트 내용입니다.
+## ⏲ 2025년 11월 7일 11시 4분의 업데이트 내용입니다.
 <details>
 <summary>프로그래머스</summary>
 
@@ -9,13 +9,13 @@
 ---
 - [[공지] 프로그래머스 블로그가 새롭게 단장했습니다!](https://prgms.tistory.com//232)
 
-- ["저의 강점인 코딩테스트에 집중해 티빙에 합격했어요"-프로그래머스 2021 Dev-Matching을 통해 티빙의 백엔드 개발자로 합류한 석희님 이야기](https://prgms.tistory.com//176)
-
 - [프로그래머스를 통해 센드버드에 합류하게 된 길원님 이야기](https://prgms.tistory.com//123)
 
-- [[월간 코드 챌린지 시즌3] 10월 문제 해설](https://prgms.tistory.com//108)
+- ["저의 강점인 코딩테스트에 집중해 티빙에 합격했어요"-프로그래머스 2021 Dev-Matching을 통해 티빙의 백엔드 개발자로 합류한 석희님 이야기](https://prgms.tistory.com//176)
 
 - [개발자의 일상을 돕는 굿즈, 프로그래머스 키트 3.0 Release Note](https://prgms.tistory.com//164)
+
+- [개발자를 위해 준비했어요! 머쓱이의 '머쓱한 ZOOM 배경화면'](https://prgms.tistory.com//100)
 
 </details>
 <details>
