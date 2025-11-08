@@ -1,6 +1,6 @@
 # tech-blog-commit-bot
 기술 블로그의 글을 매일 매일 갱신해주는 봇 🤖
-## ⏲ 2025년 11월 7일 11시 4분의 업데이트 내용입니다.
+## ⏲ 2025년 11월 8일 10시 58분의 업데이트 내용입니다.
 <details>
 <summary>프로그래머스</summary>
 
@@ -9,13 +9,13 @@
 ---
 - [[공지] 프로그래머스 블로그가 새롭게 단장했습니다!](https://prgms.tistory.com//232)
 
-- [프로그래머스를 통해 센드버드에 합류하게 된 길원님 이야기](https://prgms.tistory.com//123)
-
 - ["저의 강점인 코딩테스트에 집중해 티빙에 합격했어요"-프로그래머스 2021 Dev-Matching을 통해 티빙의 백엔드 개발자로 합류한 석희님 이야기](https://prgms.tistory.com//176)
 
-- [개발자의 일상을 돕는 굿즈, 프로그래머스 키트 3.0 Release Note](https://prgms.tistory.com//164)
+- [프로그래머스를 통해 센드버드에 합류하게 된 길원님 이야기](https://prgms.tistory.com//123)
 
 - [개발자를 위해 준비했어요! 머쓱이의 '머쓱한 ZOOM 배경화면'](https://prgms.tistory.com//100)
+
+- [개발자의 일상을 돕는 굿즈, 프로그래머스 키트 3.0 Release Note](https://prgms.tistory.com//164)
 
 </details>
 <details>
@@ -24,6 +24,8 @@
 ## 🎃토스
 
 ---
+- [토스에서 가장 안 좋은 경험 만들기 비즈니스와 사용자 경험, 두 가지를 모두 챙기려면 어떻게 해야할까요? 둘 사이 교집합을 찾아낸 과정을 알려드릴게요. 2025년 11월 7일 · 이현정](https://toss.tech/article/42221)
+
 - [토스플레이스 사일로 QA로 일한다는 것 우리가 풀어내는 문제들에 대하여 2025년 11월 4일 · 채소연](https://toss.tech/article/tossplace-qa-manager)
 
 - [토스 피플 : 데이터를 ‘이해하는’ 구조를 설계합니다 데이터의 의미를 구조화하고 연결하는 설계 여정을 걸어온, 토스의 1호 Data Architect 고정현님의 커리어 이야기를 들려드려요. 2025년 10월 31일 · 고정현](https://toss.tech/article/tosspeople-jhko)
@@ -61,7 +63,5 @@
 - [토스가 다양한 ML 모델을 만드는 법: Feature Store & Trainkit 토스의 사내 Feature Store와 학습 파이프라인 자동화를 위한 도구 Trainkit을 소개합니다. 2025년 8월 14일 · 우종호/송석현](https://toss.tech/article/feature-store-trainkit)
 
 - [귀로 듣는 챗봇의 탄생 | 접근성 업무일지 #3 스크린리더 사용자에게도 챗봇 흐름이 자연스럽게 느껴지게 하기 위해 고민한 4가지 포인트를 알려드려요. 2025년 8월 13일 · 손연지](https://toss.tech/article/38743)
-
-- [토스의 접근성 문서 A11y Fundamentals 을 소개합니다 (오픈 기념 이벤트 ~9/10) '접근성은 어려운 것' 이라고 느끼는 분들을 위해 실무에서 바로 적용할 수 있는 접근성의 핵심 개념과 실수하기 쉬운 패턴을 알려주는 문서, A11y Fundamentals 을 소개합니다. 2025년 8월 13일 · 강민우](https://toss.tech/article/A11y_Fundamentals)
 
 </details>
