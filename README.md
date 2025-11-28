@@ -1,6 +1,6 @@
 # tech-blog-commit-bot
 기술 블로그의 글을 매일 매일 갱신해주는 봇 🤖
-## ⏲ 2025년 11월 27일 11시 4분의 업데이트 내용입니다.
+## ⏲ 2025년 11월 28일 11시 4분의 업데이트 내용입니다.
 <details>
 <summary>프로그래머스</summary>
 
@@ -24,6 +24,10 @@
 ## 🎃토스
 
 ---
+- [](https://toss.tech/article/payments-legacy-4)
+
+- [](https://toss.tech/article/uxr-survival)
+
 - [](https://toss.tech/article/toss-da-mtvi)
 
 - [](https://toss.tech/article/payments-legacy-3)
@@ -59,9 +63,5 @@
 - [](https://toss.tech/article/tosspeople-diko)
 
 - [](https://toss.tech/article/credit-loan-partner-mock-server-2)
-
-- [](https://toss.tech/article/undercover-silo-5)
-
-- [](https://toss.tech/article/undercover-silo-4)
 
 </details>
