@@ -1,6 +1,6 @@
 # tech-blog-commit-bot
 기술 블로그의 글을 매일 매일 갱신해주는 봇 🤖
-## ⏲ 2025년 12월 11일 11시 19분의 업데이트 내용입니다.
+## ⏲ 2025년 12월 12일 11시 19분의 업데이트 내용입니다.
 <details>
 <summary>프로그래머스</summary>
 
@@ -11,11 +11,11 @@
 
 - [프로그래머스를 통해 센드버드에 합류하게 된 길원님 이야기](https://prgms.tistory.com//123)
 
-- ["올리브영으로의 이직 준비는 이렇게 했어요." - 프로그래머스를 통해 올리브영에 합류한 석현님 이야기](https://prgms.tistory.com//146)
+- [개발자 머쓱이가 준비한 7가지 선물 : 새로워진 프로그래머스 브랜드키트를 소개합니다.](https://prgms.tistory.com//65)
 
-- ['2022 Dev-Matching: 웹 프론트엔드 개발자(상반기)' 과제 테스트 해설](https://prgms.tistory.com//139)
+- ["취준을 위해서가 아니라, 나를 위해 기록하는 작업은 꼭 필요해요."-프로그래머스를 통해 이스트소프트의 프론트엔드 개발자로 합류한 상초님 이야기](https://prgms.tistory.com//193)
 
-- ["저의 강점인 코딩테스트에 집중해 티빙에 합격했어요"-프로그래머스 2021 Dev-Matching을 통해 티빙의 백엔드 개발자로 합류한 석희님 이야기](https://prgms.tistory.com//176)
+- ["경험한 것은 기록하지 않으면 잊어버립니다. 반드시 기록하고 정리해두시는 것을 추천 드려요" - 프로그래머스 데브매칭을 통해 라인게임즈의 백엔드 개발자로 합류한 경선님 이야기](https://prgms.tistory.com//184)
 
 </details>
 <details>
@@ -24,6 +24,8 @@
 ## 🎃토스
 
 ---
+- [](https://toss.tech/article/payments-legacy-6)
+
 - [](https://toss.tech/article/research_process)
 
 - [](https://toss.tech/article/business-customer-data)
@@ -61,7 +63,5 @@
 - [](https://toss.tech/article/payments-legacy-1)
 
 - [](https://toss.tech/article/data-analyst-ab-test)
-
-- [](https://toss.tech/article/payments-legacy-intro)
 
 </details>
