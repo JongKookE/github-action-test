@@ -1,6 +1,6 @@
 # tech-blog-commit-bot
 기술 블로그의 글을 매일 매일 갱신해주는 봇 🤖
-## ⏲ 2025년 12월 14일 11시 26분의 업데이트 내용입니다.
+## ⏲ 2025년 12월 15일 11시 23분의 업데이트 내용입니다.
 <details>
 <summary>프로그래머스</summary>
 
@@ -9,13 +9,13 @@
 ---
 - [[공지] 프로그래머스 블로그가 새롭게 단장했습니다!](https://prgms.tistory.com//232)
 
+- ["취준을 위해서가 아니라, 나를 위해 기록하는 작업은 꼭 필요해요."-프로그래머스를 통해 이스트소프트의 프론트엔드 개발자로 합류한 상초님 이야기](https://prgms.tistory.com//193)
+
 - [프로그래머스를 통해 센드버드에 합류하게 된 길원님 이야기](https://prgms.tistory.com//123)
 
 - [개발자를 위해 준비했어요! 머쓱이의 '머쓱한 ZOOM 배경화면'](https://prgms.tistory.com//100)
 
-- ["취준을 위해서가 아니라, 나를 위해 기록하는 작업은 꼭 필요해요."-프로그래머스를 통해 이스트소프트의 프론트엔드 개발자로 합류한 상초님 이야기](https://prgms.tistory.com//193)
-
-- [개발자 머쓱이가 준비한 7가지 선물 : 새로워진 프로그래머스 브랜드키트를 소개합니다.](https://prgms.tistory.com//65)
+- ['2022 Dev-Matching: 웹 프론트엔드 개발자(상반기)' 과제 테스트 해설](https://prgms.tistory.com//139)
 
 </details>
 <details>
@@ -24,6 +24,8 @@
 ## 🎃토스
 
 ---
+- [](https://toss.tech/article/tds-color-system-update)
+
 - [](https://toss.tech/article/payments-legacy-6)
 
 - [](https://toss.tech/article/research_process)
@@ -61,7 +63,5 @@
 - [](https://toss.tech/article/design_savings)
 
 - [](https://toss.tech/article/payments-legacy-1)
-
-- [](https://toss.tech/article/data-analyst-ab-test)
 
 </details>
