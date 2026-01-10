@@ -1,6 +1,6 @@
 # tech-blog-commit-bot
 기술 블로그의 글을 매일 매일 갱신해주는 봇 🤖
-## ⏲ 2026년 1월 9일 11시 23분의 업데이트 내용입니다.
+## ⏲ 2026년 1월 10일 11시 19분의 업데이트 내용입니다.
 <details>
 <summary>프로그래머스</summary>
 
@@ -24,6 +24,8 @@
 ## 🎃토스
 
 ---
+- [](https://toss.tech/article/payments-legacy-8)
+
 - [](https://toss.tech/article/rethinking-design-system)
 
 - [](https://toss.tech/article/vulnerability-analysis-automation-1)
@@ -61,7 +63,5 @@
 - [](https://toss.tech/article/payments-legacy-3)
 
 - [](https://toss.tech/article/42221)
-
-- [](https://toss.tech/article/tossplace-qa-manager)
 
 </details>
